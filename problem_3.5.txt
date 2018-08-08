@@ -1,0 +1,28 @@
+
+Write a program named ConvertDate that converts a date entered
+by the user into another form. the user's input will have the
+form
+
+month day, year
+
+The month will be one of the words January, February,.. The
+letters in the month may be lowercase, uppercase, or any
+mixture of the two. The day is a one- or two-digit number. The
+year is any number of digits. There may be any of spaces (1)
+before month, (2) between the month and the day, (3) between
+the day and the year, and (4) after the year. you may assume that
+there is at least one space between the month and day and between
+the day and year. You may also assume that there is a comma
+after the day. The converted date must have the form
+
+day month year
+
+with one space between between the day and month and between
+the month and year. The first letter of the month must uppercase,
+and the remaining letters must be lowercase. The following
+example shows what the user will see on the screen:
+
+Enter date to be converted:    apRiL   28,    2003
+Converted date: 28 April 2003
+
+Hint: substring(), indexOf(), lastIndex()
